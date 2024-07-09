@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://127.0.0.1:5500/CSS/restaurant.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Khana Khazana</title>
+    <link rel="stylesheet" href="./Khana Khazana_files/style.css">
+</head>
+<body>
+   <h1>WELCOME TO KHANA KHAZANA</h1>
+   <h3>"Sabko khilana"-A Pure Veg Restaurant.</h3>
+   <p>Good Food , Good Mood with Chinese , North and South Indian flavours of Incredible 1ndia!!</p>
+   <h2>Click Our Special Menu</h2>
+   <button>Starters</button>
+   <button>Chinese</button>
+   <button>North Specials</button>
+   <button>South Specials</button>
+   <p>------delivery!-------DineIn!-------Takeaway! Available.</p>
+   <h2>Contact Us:</h2>
+   <p>UGF, Surya Treasure Island Surya Vihar,</p>
+   <p>Bhilai,Chattisgarh-490006.</p>
+   <p>Phone Number-9374987300</p>
+   <p>visit:Khanakhazanaoffers.com</p>
+
+   
+
+   
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+  
+</body></html>
